@@ -97,7 +97,13 @@ foreach($msi in $msilist.Keys){
 if($npm){
     Write-Host "NPM is installed, installing packages to correct projects ..." -ForegroundColor Yellow
     foreach($package in $npmpackagelist){
-        npm install -g $package
+        [array]$match = (npm list "$package" -g) -match " $package"
+        if($match.Count -eq 0){
+            npm install -g $package
+        }
+        else{
+            Write-Host "`t$package is already installed" -ForegroundColor Green
+        }
     }
 }
 else{
