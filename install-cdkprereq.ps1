@@ -109,3 +109,7 @@ if($npm){
 else{
     Write-Host "`nNPM is not installed and therefore there will be missing dependencies. Re-run this script after installing NodeJS to install dependencies" -ForegroundColor Yellow
 }
+
+if(!(Test-Path "$pwd\cdk-workshop)" -ErrorAction SilentlyContinue)){
+    New-Item -ItemType Directory -Name "cdk-workshop"
+}
