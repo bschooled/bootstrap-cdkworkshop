@@ -4,6 +4,7 @@ $npmpackagelist = @(
 
 $msilist = @{
     "npm"='https://nodejs.org/dist/v13.9.0/node-v13.9.0-x64.msi';
+    "aws --version"="https://awscli.amazonaws.com/AWSCLIV2.msi";
     "code --version"='https://az764295.vo.msecnd.net/stable/c47d83b293181d9be64f27ff093689e8e7aed054/VSCodeSetup-x64-1.42.1.exe';
     "dotnet --list-sdks"="https://download.visualstudio.microsoft.com/download/pr/5aad9c2c-7bb6-45b1-97e7-98f12cb5b63b/6f6d7944c81b043bdb9a7241529a5504/dotnet-sdk-3.1.102-win-x64.exe"
 }
