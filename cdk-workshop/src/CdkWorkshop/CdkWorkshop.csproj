@@ -15,7 +15,6 @@
     <PackageReference Include="Amazon.CDK.AWS.SNS" Version="1.27.0" />
     <PackageReference Include="Amazon.CDK.AWS.SNS.Subscriptions" Version="1.27.0" />
     <PackageReference Include="Amazon.CDK.AWS.SQS" Version="1.27.0" />
-    <PackageReference Include="eladb.dynamotableviewer" Version="3.0.6" />
 
     <!-- jsii Roslyn analyzers (un-comment to obtain compile-time checks for missing required props
     <PackageReference Include="Amazon.Jsii.Analyzers" Version="*" PrivateAssets="all" />
