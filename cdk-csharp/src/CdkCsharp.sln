@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdkCsharp", "CdkCsharp\CdkCsharp.csproj", "{739A5BE3-5223-470F-A551-43E53023279D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|x64.Build.0 = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Debug|x86.Build.0 = Debug|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|x64.ActiveCfg = Release|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|x64.Build.0 = Release|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|x86.ActiveCfg = Release|Any CPU
+		{739A5BE3-5223-470F-A551-43E53023279D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
